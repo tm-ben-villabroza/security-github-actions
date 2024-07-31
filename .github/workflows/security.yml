@@ -1,5 +1,5 @@
-name: Example workflow for Python using Snyk
-on: [push, pull_request]
+name: Snyk Vulnerability Scan for Python
+on: [pull_request]
 jobs:
   security:
     runs-on: ubuntu-latest
